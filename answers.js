@@ -18,7 +18,7 @@ function check_ans2(){
   var answer = document.querySelector("#answer");
   var wrong = document.querySelector("#wrong");
   var next = document.querySelector(".next");
-  if (answer.value == "Edgar Allan" || answer.value == "Edgar allan" || answer.value == "edgar allan"){
+  if (answer.value == "Edgar Allan" || answer.value == "Edgar allan" || answer.value == "edgar allan" || answer.value == "edgar allan poe" || answer.value == "Edgar allan poe" || answer.value == "Edgar Allan Poe"){
     right.style.display = "block";
     next.style.display = "inline";
     wrong.style.display = "none";
