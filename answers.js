@@ -6,13 +6,13 @@ function check_ans1(){
   if (answer.value == "Famous Five" || answer.value == "famous five" || answer.value == "Famous five" || answer.value == "The famous five" || answer.value == "The Famous Five"){
     next.style.display = "inline";
     wrong.style.display = "none"
-  }
+  
   else{
     wrong.style.display = "block"
     right.style.display = "none";
     next.style.display = "none";
-  }
-}
+ 
+
 function check_ans2(){
   var right = document.querySelector("#right");
   var answer = document.querySelector("#answer");
